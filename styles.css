@@ -58,14 +58,14 @@ header nav li{
 }
 
 nav li a{
-  color: var(--color5);
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: bolder;
   text-decoration: none;
 }
 
 header .title{
-  color: var(--color5);
+  color: #ffffff;
   background: var(--primary);
   width: 100%;
   padding: 50px 100px;
@@ -142,6 +142,7 @@ header .title{
   justify-content: center;
   color: #fff;
   transition: .2s;
+  flex-grow: 2;
 }
 
 .colour_card:hover {
@@ -190,4 +191,8 @@ header .title{
 }
 .six{
   background: #c046ff;
+}
+.seven{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #ffffff;
 }
